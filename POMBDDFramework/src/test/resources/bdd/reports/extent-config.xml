@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extentreports>
+    <configuration>
+        <!-- Report Theme -->
+        <!-- Options: standard, dark -->
+        <theme>dark</theme>
+
+        <!-- Document Encoding -->
+        <!-- Defaults to UTF-8 -->
+        <encoding>UTF-8</encoding>
+
+        <!-- Protocol for Scripts and Stylesheets -->
+        <!-- Defaults to https -->
+        <protocol>https</protocol>
+
+        <!-- Title of the Document -->
+        <documentTitle>Extent</documentTitle>
+
+        <!-- Report Name - Displayed at Top Navigation -->
+        <reportName>BDD Automation Report</reportName>
+
+        <!-- Location of Charts in the Test View -->
+        <!-- Options: top, bottom -->
+        <testViewChartLocation>bottom</testViewChartLocation>
+
+        <!-- Custom JavaScript -->
+        <scripts>
+            <![CDATA[
+                $(document).ready(function() {
+                    // Add your custom JavaScript here
+                });
+            ]]>
+        </scripts>
+
+        <!-- Custom Styles -->
+        <styles>
+            <![CDATA[
+                /* Add your custom CSS here */
+            ]]>
+        </styles>
+    </configuration>
+</extentreports>
